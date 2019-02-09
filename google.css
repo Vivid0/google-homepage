@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+svg {
+    height: 30px;
+    width: 100%;
+    fill: #4285f4;
+}
+
+input.search {
+    border-style: hidden;
+}
+
+#search-bar {
+    display: grid;
+    grid-template-columns: 30px 300px 30px;
+    grid-gap: 5px;
+    margin: auto;
+    width: 40%;
+}
+
+#logo {
+    margin: auto;
+    width: 50%;
+}
+
+/* top left list */
+.top-left {
+    list-style: none;
+}
+
+.top-left li {
+    display: inline;
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+}
